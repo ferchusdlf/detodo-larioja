@@ -1,0 +1,37 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+  color: #333;
+}
+header {
+  background: #b30059;
+  color: white;
+  padding: 2em;
+  text-align: center;
+}
+.productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1em;
+  padding: 1em;
+}
+.producto {
+  background: white;
+  padding: 1em;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.producto img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+footer {
+  background: #eee;
+  padding: 1em;
+  text-align: center;
+  font-size: 0.9em;
+}
